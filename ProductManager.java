@@ -24,7 +24,7 @@ public class ProductManager {
 		if(productNo <= 0) {
 			return null;
 		}
-		Product pro = product.get(productNo);
+		Product pro = product.get(productNo-1);
 		return pro;
 	}
 }
